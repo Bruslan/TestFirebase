@@ -14,6 +14,11 @@
 		781AA2F020C18EE10035D771 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 781AA2EE20C18EE10035D771 /* LaunchScreen.storyboard */; };
 		781AA2FB20C18EE10035D771 /* BoredAppFirebaseTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 781AA2FA20C18EE10035D771 /* BoredAppFirebaseTests.swift */; };
 		781AA30620C18EE10035D771 /* BoredAppFirebaseUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 781AA30520C18EE10035D771 /* BoredAppFirebaseUITests.swift */; };
+		781AA31420C18F480035D771 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 781AA31320C18F480035D771 /* GoogleService-Info.plist */; };
+		781AA31820C19F500035D771 /* ViewControllerLoggedIn.swift in Sources */ = {isa = PBXBuildFile; fileRef = 781AA31720C19F500035D771 /* ViewControllerLoggedIn.swift */; };
+		A7924ECB41D35F00199F06E7 /* Pods_BoredAppFirebase.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CA5FBD739C0A1CD622C101D4 /* Pods_BoredAppFirebase.framework */; };
+		B4D89868EF7F6AB7B7252527 /* Pods_BoredAppFirebaseUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 52B9127CF091D7645DA5F4BC /* Pods_BoredAppFirebaseUITests.framework */; };
+		B8359CF5203D15CBAABF0FDF /* Pods_BoredAppFirebaseTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BA744D4197BB0CE9F14C6AE7 /* Pods_BoredAppFirebaseTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +39,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2DBF52E5E10DF25395FDED80 /* Pods-BoredAppFirebase.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BoredAppFirebase.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BoredAppFirebase/Pods-BoredAppFirebase.debug.xcconfig"; sourceTree = "<group>"; };
+		52B9127CF091D7645DA5F4BC /* Pods_BoredAppFirebaseUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BoredAppFirebaseUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		68B8F5DFAE90408579FD80E2 /* Pods-BoredAppFirebaseUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BoredAppFirebaseUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BoredAppFirebaseUITests/Pods-BoredAppFirebaseUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		781AA2E220C18EE00035D771 /* BoredAppFirebase.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BoredAppFirebase.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		781AA2E520C18EE00035D771 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		781AA2E720C18EE00035D771 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +55,14 @@
 		781AA30120C18EE10035D771 /* BoredAppFirebaseUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BoredAppFirebaseUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		781AA30520C18EE10035D771 /* BoredAppFirebaseUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoredAppFirebaseUITests.swift; sourceTree = "<group>"; };
 		781AA30720C18EE10035D771 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		781AA31320C18F480035D771 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		781AA31720C19F500035D771 /* ViewControllerLoggedIn.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerLoggedIn.swift; sourceTree = "<group>"; };
+		BA744D4197BB0CE9F14C6AE7 /* Pods_BoredAppFirebaseTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BoredAppFirebaseTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C2CD648ED2346FB8F37BB0AE /* Pods-BoredAppFirebase.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BoredAppFirebase.release.xcconfig"; path = "Pods/Target Support Files/Pods-BoredAppFirebase/Pods-BoredAppFirebase.release.xcconfig"; sourceTree = "<group>"; };
+		CA5FBD739C0A1CD622C101D4 /* Pods_BoredAppFirebase.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BoredAppFirebase.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E7088AFBB5BF24412C781C24 /* Pods-BoredAppFirebaseTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BoredAppFirebaseTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BoredAppFirebaseTests/Pods-BoredAppFirebaseTests.debug.xcconfig"; sourceTree = "<group>"; };
+		EBC083FC59BBEB1A40B16A3D /* Pods-BoredAppFirebaseTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BoredAppFirebaseTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-BoredAppFirebaseTests/Pods-BoredAppFirebaseTests.release.xcconfig"; sourceTree = "<group>"; };
+		F319AA9FB28B6DB2630795FD /* Pods-BoredAppFirebaseUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BoredAppFirebaseUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-BoredAppFirebaseUITests/Pods-BoredAppFirebaseUITests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +70,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A7924ECB41D35F00199F06E7 /* Pods_BoredAppFirebase.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +78,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B8359CF5203D15CBAABF0FDF /* Pods_BoredAppFirebaseTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,6 +86,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B4D89868EF7F6AB7B7252527 /* Pods_BoredAppFirebaseUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +100,8 @@
 				781AA2F920C18EE10035D771 /* BoredAppFirebaseTests */,
 				781AA30420C18EE10035D771 /* BoredAppFirebaseUITests */,
 				781AA2E320C18EE00035D771 /* Products */,
+				96DFC9225A869E9362D97DFF /* Pods */,
+				C11D8919CFFF7AB96241F6F8 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -97,9 +118,11 @@
 		781AA2E420C18EE00035D771 /* BoredAppFirebase */ = {
 			isa = PBXGroup;
 			children = (
+				781AA31320C18F480035D771 /* GoogleService-Info.plist */,
 				781AA2E520C18EE00035D771 /* AppDelegate.swift */,
 				781AA2E720C18EE00035D771 /* ViewController.swift */,
 				781AA2E920C18EE00035D771 /* Main.storyboard */,
+				781AA31720C19F500035D771 /* ViewControllerLoggedIn.swift */,
 				781AA2EC20C18EE10035D771 /* Assets.xcassets */,
 				781AA2EE20C18EE10035D771 /* LaunchScreen.storyboard */,
 				781AA2F120C18EE10035D771 /* Info.plist */,
@@ -125,6 +148,29 @@
 			path = BoredAppFirebaseUITests;
 			sourceTree = "<group>";
 		};
+		96DFC9225A869E9362D97DFF /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2DBF52E5E10DF25395FDED80 /* Pods-BoredAppFirebase.debug.xcconfig */,
+				C2CD648ED2346FB8F37BB0AE /* Pods-BoredAppFirebase.release.xcconfig */,
+				E7088AFBB5BF24412C781C24 /* Pods-BoredAppFirebaseTests.debug.xcconfig */,
+				EBC083FC59BBEB1A40B16A3D /* Pods-BoredAppFirebaseTests.release.xcconfig */,
+				68B8F5DFAE90408579FD80E2 /* Pods-BoredAppFirebaseUITests.debug.xcconfig */,
+				F319AA9FB28B6DB2630795FD /* Pods-BoredAppFirebaseUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		C11D8919CFFF7AB96241F6F8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CA5FBD739C0A1CD622C101D4 /* Pods_BoredAppFirebase.framework */,
+				BA744D4197BB0CE9F14C6AE7 /* Pods_BoredAppFirebaseTests.framework */,
+				52B9127CF091D7645DA5F4BC /* Pods_BoredAppFirebaseUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +178,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 781AA30A20C18EE10035D771 /* Build configuration list for PBXNativeTarget "BoredAppFirebase" */;
 			buildPhases = (
+				F0B9B9622F01009094B403E9 /* [CP] Check Pods Manifest.lock */,
 				781AA2DE20C18EE00035D771 /* Sources */,
 				781AA2DF20C18EE00035D771 /* Frameworks */,
 				781AA2E020C18EE00035D771 /* Resources */,
+				C965F11B470DCAB53538D3F6 /* [CP] Embed Pods Frameworks */,
+				9F39CEAA65382939CD42A732 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -149,6 +198,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 781AA30D20C18EE10035D771 /* Build configuration list for PBXNativeTarget "BoredAppFirebaseTests" */;
 			buildPhases = (
+				F200FE421A93D1896F267197 /* [CP] Check Pods Manifest.lock */,
 				781AA2F220C18EE10035D771 /* Sources */,
 				781AA2F320C18EE10035D771 /* Frameworks */,
 				781AA2F420C18EE10035D771 /* Resources */,
@@ -167,6 +217,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 781AA31020C18EE10035D771 /* Build configuration list for PBXNativeTarget "BoredAppFirebaseUITests" */;
 			buildPhases = (
+				D4D4E40B2482240B949F82F4 /* [CP] Check Pods Manifest.lock */,
 				781AA2FD20C18EE10035D771 /* Sources */,
 				781AA2FE20C18EE10035D771 /* Frameworks */,
 				781AA2FF20C18EE10035D771 /* Resources */,
@@ -230,6 +281,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				781AA2F020C18EE10035D771 /* LaunchScreen.storyboard in Resources */,
+				781AA31420C18F480035D771 /* GoogleService-Info.plist in Resources */,
 				781AA2ED20C18EE10035D771 /* Assets.xcassets in Resources */,
 				781AA2EB20C18EE00035D771 /* Main.storyboard in Resources */,
 			);
@@ -251,6 +303,145 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		9F39CEAA65382939CD42A732 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-BoredAppFirebase/Pods-BoredAppFirebase-resources.sh",
+				"${PODS_CONFIGURATION_BUILD_DIR}/FirebaseUI/FirebaseAuthUI.bundle",
+				"${PODS_CONFIGURATION_BUILD_DIR}/FirebaseUI/FirebaseFacebookAuthUI.bundle",
+				"${PODS_CONFIGURATION_BUILD_DIR}/FirebaseUI/FirebaseGoogleAuthUI.bundle",
+				"${PODS_CONFIGURATION_BUILD_DIR}/FirebaseUI/FirebasePhoneAuthUI.bundle",
+				"${PODS_CONFIGURATION_BUILD_DIR}/FirebaseUI/FirebaseTwitterAuthUI.bundle",
+				"${PODS_ROOT}/GoogleSignIn/Resources/GoogleSignIn.bundle",
+				"${PODS_ROOT}/TwitterKit/iOS/TwitterKit.framework/TwitterKitResources.bundle",
+				"${PODS_ROOT}/TwitterKit/iOS/TwitterKit.framework/TwitterShareExtensionUIResources.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/FirebaseAuthUI.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/FirebaseFacebookAuthUI.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/FirebaseGoogleAuthUI.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/FirebasePhoneAuthUI.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/FirebaseTwitterAuthUI.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GoogleSignIn.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/TwitterKitResources.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/TwitterShareExtensionUIResources.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BoredAppFirebase/Pods-BoredAppFirebase-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C965F11B470DCAB53538D3F6 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-BoredAppFirebase/Pods-BoredAppFirebase-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Bolts/Bolts.framework",
+				"${BUILT_PRODUCTS_DIR}/BoringSSL/openssl.framework",
+				"${BUILT_PRODUCTS_DIR}/FBSDKCoreKit/FBSDKCoreKit.framework",
+				"${BUILT_PRODUCTS_DIR}/FBSDKLoginKit/FBSDKLoginKit.framework",
+				"${BUILT_PRODUCTS_DIR}/GTMOAuth2/GTMOAuth2.framework",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/Protobuf/Protobuf.framework",
+				"${BUILT_PRODUCTS_DIR}/SDWebImage/SDWebImage.framework",
+				"${PODS_ROOT}/TwitterCore/iOS/TwitterCore.framework",
+				"${PODS_ROOT}/TwitterKit/iOS/TwitterKit.framework",
+				"${BUILT_PRODUCTS_DIR}/gRPC/GRPCClient.framework",
+				"${BUILT_PRODUCTS_DIR}/gRPC-Core/grpc.framework",
+				"${BUILT_PRODUCTS_DIR}/gRPC-ProtoRPC/ProtoRPC.framework",
+				"${BUILT_PRODUCTS_DIR}/gRPC-RxLibrary/RxLibrary.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Bolts.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/openssl.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBSDKCoreKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBSDKLoginKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMOAuth2.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Protobuf.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SDWebImage.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/TwitterCore.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/TwitterKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GRPCClient.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/grpc.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ProtoRPC.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxLibrary.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BoredAppFirebase/Pods-BoredAppFirebase-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D4D4E40B2482240B949F82F4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-BoredAppFirebaseUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F0B9B9622F01009094B403E9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-BoredAppFirebase-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F200FE421A93D1896F267197 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-BoredAppFirebaseTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		781AA2DE20C18EE00035D771 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -258,6 +449,7 @@
 			files = (
 				781AA2E820C18EE00035D771 /* ViewController.swift in Sources */,
 				781AA2E620C18EE00035D771 /* AppDelegate.swift in Sources */,
+				781AA31820C19F500035D771 /* ViewControllerLoggedIn.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -428,6 +620,7 @@
 		};
 		781AA30B20C18EE10035D771 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2DBF52E5E10DF25395FDED80 /* Pods-BoredAppFirebase.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -446,6 +639,7 @@
 		};
 		781AA30C20C18EE10035D771 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C2CD648ED2346FB8F37BB0AE /* Pods-BoredAppFirebase.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -464,6 +658,7 @@
 		};
 		781AA30E20C18EE10035D771 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E7088AFBB5BF24412C781C24 /* Pods-BoredAppFirebaseTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -485,6 +680,7 @@
 		};
 		781AA30F20C18EE10035D771 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EBC083FC59BBEB1A40B16A3D /* Pods-BoredAppFirebaseTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -506,6 +702,7 @@
 		};
 		781AA31120C18EE10035D771 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 68B8F5DFAE90408579FD80E2 /* Pods-BoredAppFirebaseUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -526,6 +723,7 @@
 		};
 		781AA31220C18EE10035D771 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F319AA9FB28B6DB2630795FD /* Pods-BoredAppFirebaseUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;

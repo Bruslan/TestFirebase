@@ -1,0 +1,6 @@
+framework module Pods_BoredAppFirebase {
+  umbrella header "Pods-BoredAppFirebase-umbrella.h"
+
+  export *
+  module * { export * }
+}
